@@ -115,7 +115,7 @@
   "dependencies": [],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/Drhodesw/UESRPG-2MT/master/module.json",
-  "download": "https://github.com/Drhodesw/UESRPG-2MT/releases/download/v1.0/uesrpg-third-edition.zip",
+  "download": "https://github.com/Drhodesw/UESRPG-2MT/archive/refs/tags/v1.0.zip",
   "protected": false,
   "coreTranslation": false
 }
