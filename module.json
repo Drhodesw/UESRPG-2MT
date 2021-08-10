@@ -1,48 +1,121 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
+  "name": "uesrpg-third-edition",
+  "title": "2-Minute Tamriel",
+  "description": "A complete resource for UESRPG 3E v3.",
+  "author": "Dave",
+  "authors": [],
+  "url": "",
+  "readme": "",
+  "bugs": "",
+  "flags": {},
+  "version": "1.0",
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
-  "authors": [
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "label": "Rules (UESRPG 3e)",
+      "entity": "JournalEntry",
+      "name": "core-rulebook-v3",
+      "path": "packs/core-rulebook-v3.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false,
+      "absPath": "C:\\Users\\David\\AppData\\Local\\FoundryVTT\\Data\\worlds\\aureate mantle\\packs\\core-rulebook-v3.db"
+    },
+    {
+      "label": "Macros (UESRPG 3E)",
+      "entity": "Macro",
+      "name": "macros-uesrpg-3e",
+      "path": "packs/macros-uesrpg-3e.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false
+    },
+    {
+      "label": "Languages (UESRPG 3e)",
+      "entity": "Item",
+      "name": "languages-uesrpg-3e",
+      "path": "packs/languages-uesrpg-3e.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false
+    },
+    {
+      "label": "Tamriel (UESRPG 2MT)",
+      "entity": "Scene",
+      "name": "tamriel-uesrpg-2mt",
+      "path": "packs/tamriel-uesrpg-2mt.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false
+    },
+    {
+      "label": "Skills (UESRPG 3e)",
+      "entity": "Item",
+      "name": "core-rulebook-v3-skills",
+      "path": "packs/core-rulebook-v3-skills.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false,
+      "absPath": "C:\\Users\\David\\AppData\\Local\\FoundryVTT\\Data\\worlds\\aureate mantle\\packs\\core-rulebook-v3-skills.db"
+    },
+    {
+      "label": "Talents & Traits (UESRPG 3e)",
+      "entity": "Item",
+      "name": "core-rulebook-v3-talents-and-traits",
+      "path": "packs/core-rulebook-v3-talents-and-traits.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false
+    },
+    {
+      "label": "Spells (UESRPG 3e)",
+      "entity": "Item",
+      "name": "core-rulebook-v3-spells",
+      "path": "packs/core-rulebook-v3-spells.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false
+    },
+    {
+      "label": "Tables (UESRPG 3e)",
+      "entity": "RollTable",
+      "name": "core-rulebook-v3-tables",
+      "path": "packs/core-rulebook-v3-tables.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false
+    },
+    {
+      "label": "Items (UESRPG 3e)",
+      "entity": "Item",
+      "name": "core-rulebook-v3-items",
+      "path": "packs/core-rulebook-v3-items.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false,
+      "absPath": "C:\\Users\\David\\AppData\\Local\\FoundryVTT\\Data\\worlds\\aureate mantle\\packs\\core-rulebook-v3-items.db"
+    },
+    {
+      "label": "Actors (UESRPG 3e)",
+      "entity": "Actor",
+      "name": "core-rulebook-v3-actors",
+      "path": "packs/core-rulebook-v3-actors.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false,
+      "absPath": "C:\\Users\\David\\AppData\\Local\\FoundryVTT\\Data\\worlds\\aureate mantle\\packs\\core-rulebook-actors.db"
     }
   ],
-  "dependencies": [
-
-  ],
-  "conflicts": [
-    
-  ],
-  "esmodules": [
-    "/scripts/module.js"
-  ],
-  "scripts": [
-    "/scripts/lib/lib.js"
-  ],
-  "styles": [
-    "/styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "coreTranslation": false
 }
