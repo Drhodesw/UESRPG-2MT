@@ -99,16 +99,6 @@
       "package": "world",
       "private": false,
       "absPath": "C:\\Users\\David\\AppData\\Local\\FoundryVTT\\Data\\worlds\\aureate mantle\\packs\\core-rulebook-v3-items.db"
-    },
-    {
-      "label": "Actors (UESRPG 3e)",
-      "entity": "Actor",
-      "name": "core-rulebook-v3-actors",
-      "path": "packs/core-rulebook-v3-actors.db",
-      "system": "uesrpg-d100",
-      "package": "world",
-      "private": false,
-      "absPath": "C:\\Users\\David\\AppData\\Local\\FoundryVTT\\Data\\worlds\\aureate mantle\\packs\\core-rulebook-actors.db"
     }
   ],
   "system": [],
