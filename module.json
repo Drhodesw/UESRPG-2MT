@@ -8,7 +8,7 @@
   "readme": "https://github.com/Drhodesw/UESRPG-2MT/blob/master/README.md",
   "bugs": "https://github.com/Drhodesw/UESRPG-2MT/issues",
   "flags": {},
-  "version": "1.0",
+  "version": "1.1",
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
   "scripts": [],
@@ -99,13 +99,23 @@
       "package": "world",
       "private": false,
       "absPath": "C:\\Users\\David\\AppData\\Local\\FoundryVTT\\Data\\worlds\\aureate mantle\\packs\\core-rulebook-v3-items.db"
+    },
+    {
+      "label": "Actors (UESRPG 3e)",
+      "entity": "Actor",
+      "name": "core-rulebook-v3-actors",
+      "path": "packs/core-rulebook-v3-actors.db",
+      "system": "uesrpg-d100",
+      "package": "world",
+      "private": false,
+      "absPath": "C:\\Users\\David\\AppData\\Local\\FoundryVTT\\Data\\worlds\\aureate mantle\\packs\\core-rulebook-actors.db"
     }
   ],
   "system": [],
   "dependencies": [],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/Drhodesw/UESRPG-2MT/master/module.json",
-  "download": "https://github.com/Drhodesw/UESRPG-2MT/archive/refs/tags/v1.0.zip",
+  "download": "https://github.com/Drhodesw/UESRPG-2MT/archive/refs/tags/v1.1.zip",
   "protected": false,
   "coreTranslation": false
 }
